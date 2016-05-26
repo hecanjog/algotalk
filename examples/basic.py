@@ -1,5 +1,6 @@
 from pippi import dsp, tune
 from hcj import keys, data, Tracks, snds, curves, fx
+import time
 
 midi = {'mpk': 'MPKmini2 MIDI 1'}
 trigger = {
@@ -36,7 +37,10 @@ def play(ctl):
     
     if fixed:
         seed = mpk.get(5)
-        dsp.seed(str(seed))
+    else:
+        seed = time.time()
+
+    dsp.seed(str(seed))
 
     def makeOnsets(length, wobble, div, num_beats, offset=False):
         if offset:
