@@ -1,0 +1,372 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Composing algorithmic music</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/black.css">
+    </head>
+
+    <body>
+
+        <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <h1>About the talk</h1>
+                <ul>
+                    <li class="fragment">Some concepts and terminology</li>
+                    <li class="fragment">Tour of some algorithmic approaches mostly by example</li>
+                    <li class="fragment">Musical examples</li>
+                    <li class="fragment">Historical examples</li>
+                    <li class="fragment">Practical demonstration</li>
+                    <li class="fragment">Discussion</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>What is algorithmic music?</h2>
+                <ul>
+                    <li class="fragment">Music created by process</li>
+                    <li class="fragment">Not just for computers</li>
+                    <li class="fragment">Can be deterministic or indeterminate</li>
+                    <li class="fragment">Can be executed in many domains</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Names for algorithmic music</h2>
+                <ul>
+                    <li class="fragment">Process music</li>
+                    <li class="fragment">Generative music</li>
+                    <li class="fragment">Procedural music</li>
+                    <li class="fragment">Aleatoric music</li>
+                    <li class="fragment">Stochastic music</li>
+                    <li class="fragment">Chance operations</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h2>Types of process</h2>
+                <p>(not meant to be exhaustive or exclusive - lots of crossover)</p>
+            </section>
+
+            <section>
+                <h2>Software processes</h2>
+                <ul>
+                    <li class="fragment">Software algorithms / Software scores</li>
+                    <li class="fragment">Algorithm: set of instructions that describe a process to be carried out by a computer</li>
+                    <li class="fragment">Random number generators</li>
+                    <li class="fragment">Probability tables, markov chains, oh my</li>
+                    <li class="fragment">Brownian motion / drunk walks</li>
+                    <li class="fragment">Procedural recipes (if this then that)</li>
+                    <li class="fragment">Machine learning systems</li>
+                    <li class="fragment">Actual artificial intelligences <span class="fragment">... SIKE!</span></li>
+                    <li class="fragment">Computational creativity (true AI)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Laurie Spiegel</h2>
+                <h3>A Harmonic Algorithm (1981 Version)</h3>
+                <ul>
+                    <li class="fragment">Written in Apple Pascal & 6502 assembly for an Apple II with Mountain Hardware oscillator boards.</li>
+                    <li class="fragment">Algorithm describes compositional decisions (in this case modeled after Bach) which generate movement based on initial conditions.</li>
+                    <li class="fragment">Described in detail in her 1982 paper <em>Sonic Set Theory: A Tonal Music Theory for Computers</em>.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Autechre</h2>
+                <h3>acdwn2 from elseq 1</h3>
+                <ul>
+                    <li class="fragment">Simple rhythmic / pitch ostinato adds foundation around algorithmic variation in timbre.
+                    <li class="fragment">The melody is really in the timbral transformation/articulation of each synth layer in phrases & over longer periods of time.
+                </ul>
+            </section>
+                        
+            <section>
+                <blockquote>
+                    "It seems that for a lot of people, if they hear something that doesn't sound regular, they assume it's random. 
+                    If live musicians were playing it, they'd probably call it jazz or something. But the fact that it's coming out of a computer, 
+                    as they perceive it, somehow seems to make it different. For me it's just messing around with a lot of analogue sequencers and 
+                    drum machines. It's like saying, 'I want this to go from this beat to that beat over this amount of time, with this curve, which 
+                    is shaped according to this equation." - Sean Booth
+                </blockquote>
+            </section>
+
+            <section>
+                <h2>Human processes</h2>
+                <ul>
+                    <li class="fragment">A sequence of coded or natural language instructions for a human to carry out.</li>
+                    <li class="fragment">Written scores using indeterminate notation</li>
+                    <li class="fragment">Graphical scores</li>
+                    <li class="fragment">Game pieces</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Mark Applebaum</h2>
+                <h3>stog</h3>
+                <ul>
+                    <li class="fragment">Performed on the Mouseketeer sound sculpture</li>
+                    <li class="fragment">Score is based on subway maps read in multiple directions by the performer</li>
+                </ul>
+            </section>
+
+            <section>
+                <img src="stog_1.gif"/>
+                <img src="stog_2.gif"/>
+            </section>
+
+            <section>
+                <h2>Music Ex: Terry Riley</h2>
+                <h3>In C</h3>
+                <ul>
+                    <li class="fragment">Score consists of musical fragments</li>
+                    <li class="fragment">Piece is performed by performers moving freely through the score based on a simple set of instructions.</li>
+                    <li class="fragment">Ensemble moves from unison to polyphony and back as performers phase around each other</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Marina Rosenfeld</h2>
+                <h3>Sheer Frost Orchestra</h3>
+                <ul>
+                    <li class="fragment">Ensemble of amateur musicians</li>
+                    <li class="fragment">Pre-performance workshops to teach how to read graphic scores & how to play extended techniques invented by Rosenfeld using guitars and nail polish bottles</li>
+                    <li class="fragment">Performers follow graphic scores composed by Rosenfeld</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Mechanical & electro-mechanical processes</h2>
+                <ul>
+                    <li class="fragment">Artificial physical systems</li>
+                    <li class="fragment">Electronic & electro-mechanical systems</li>
+                    <li class="fragment">Rube Goldberg-like use of physics</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Graham Dunning<h2>
+                <h3>Mechanical Techno Demonstration</h3>
+                <ul>
+                    <li class="fragment">Multi-level turntable</li>
+                    <li class="fragment">Various physical systems for triggering and producing sounds</li>
+                    <li class="fragment">Light theremin with interfering optics</li>
+                </ul>
+            </section>
+
+            <section>
+                <img src="gdsetup.jpg"/>
+            </section>
+
+            <section>
+                <img src="gdopti.jpg"/>
+            </section>
+
+            <section>
+                <h2>Music Ex: David Tudor</h2>
+                <h3>Neural Synthesis No. 6</h3>
+                <ul>
+                    <li class="fragment">Based around an analog neural network chip designed by Intel</li>
+                </ul>
+            </section>
+
+            <section>
+                <p>
+                    "The neural-network chip forms the heart of the synthesizer. It consists of 64 non-linear amplifiers 
+                    (the electronic neurons on the chip) with 10240 programmable connections. Any input signal can be connected 
+                    to any neuron, the output of which can be fed back to any input via on-chip or off-chip paths, each with 
+                    variable connection strength. The same floating-gate devices used in EEPROMs (electrically erasable, programmable, 
+                    read-only memories) are used in an analog mode of operation to store the strengths of the connections. 
+                    The synthesizer adds R-C (resistance-capacitance) tank circuits on feedback paths for 16 of the 64 neurons 
+                    to control the frequencies of oscillation. The R-C circuits produce relaxation oscillations. 
+                </p>
+             </section>
+            <section>
+                <p>
+                    Interconnecting 
+                    many relaxation oscillators rapidly produces complex sounds. Global gain and bias signals on the chip control 
+                    the relative amplitudes of neuron oscillations. Near the onset of oscillation the neurons are sensitive to 
+                    inherent thermal noise produced by random motions of electron groups moving through the monolithic silicon lattice. 
+                    This thermal noise adds unpredictability to the synthesizer's outputs, something David found especially appealing.
+                </p>
+            </section>
+            <section>
+                <p>
+                    The synthesizer's performance console controls the neural-network chip. R-C circuits, external feedback paths and 
+                    output channels. The chip itself is not used to its full potential in this first synthesizer. It generates sound 
+                    and routes signals but the role of learner, pattern-recognizer and responder is played by David, himself a vastly 
+                    more complex neural network than the chip. During performances David chooses from up to 14 channels of synthesizer 
+                    output, modifying each of them with his other electronic devices to create the final signals." - Forrest Warthman (liner notes)
+                </p>
+            </section>
+
+            <section>
+                <h2>Natural processes</h2>
+                <ul>
+                    <li class="fragment">Natural physical processes</li>
+                    <li class="fragment">Sonification / manipulation of abstract data (bird migration data, fish population stats, weather patterns...)</li>
+                    <li class="fragment">Using sensors or special microphones to make non-audio signals audible</li>
+                    <li class="fragment">Radio / cosmic radiation</li>
+                    <li class="fragment">Field recordings as data</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Andrea Polli<h2>
+                <h3>Sonic Antarctica</h3>
+                <ul>
+                    <li class="fragment">Combines field recordings, interviews, and environmental data sonifications</li>
+                    <li class="fragment"><em>A Model Is A Cartoon</em> Antarctic ice acceleration data from Slawek Tulaczyk and 
+                        Jake Walter of UC Santa Cruz</li>
+                    <li class="fragment"><em>Taylor Glacier</em> Glacier weather station data 2007 compiled by Hassan Basagic 
+                        of the McMurdo Dry Valleys Long Term Ecological Research (LTER) Project; Automatic Weather Station (AWS) 
+                        maintenance at Windless Bight
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Data processes</h2>
+                <ul>
+                    <li class="fragment">Chaotic and fractal spaces</li>
+                    <li class="fragment">Sonification / manipulation of data sets (server logs, artificial system sensor readings...)</li>
+                    <li class="fragment">Synthetic systems / physical models</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: He Can Jog</h2>
+                <h3>cat /var/log/httpd/* | aplay -r 44100 -c 2</h3>
+                <ul>
+                    <li class="fragment">Sonification of apache server logs</li>
+                    <li class="fragment">Algorithm is the direct mapping of 8bit ascii characters to two interleaved channels of 16 bit PCM audio</li>
+                    <li class="fragment">Repetition in the log files simulates oscillation in the sonification and produces pitches</li>
+                    <li class="fragment">A strangely mapped wavetable synth</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Hanne Darboven</h2>
+                <h3>Opus 60 - Furioso</h3>
+                <ul>
+                    <li class="fragment">Symphony for 120 players</li>
+                    <li class="fragment">Based on transcriptions of calendar dates</li>
+                    <li class="fragment">Created systems for translating numbers into musical notes and expressions</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Hanne Darboven</h2>
+                <h3>Opus 17a</h3>
+                <ul>
+                    <li class="fragment">Also uses a translation system to generate a musical score from calendar dates</li>
+                    <li class="fragment">Performed by Robert Black</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: EVOL</h2>
+                <h3>Opus 17a (live at Issue Project Room)</h3>
+                <ul>
+                    <li class="fragment">Guy Birkin provided pitch and rhythmic data extracted from an analysis 
+                        of the first 12 minutes of the Robert Black recording.</li>
+                    <li class="fragment">Many realizations for different synthesizers and drum machines</li>
+                    <li class="fragment">Solo computer (Roc Jimenez de Cisneros) with strobe lights and giant pink bunny</li>
+                </ul>
+            </section>
+
+            <section>
+                <img src="evolopus17a.jpg"/>
+            </section>
+
+            <section>
+                <h1>A Couple Historical Examples</h1>
+            </section>
+
+            <section>
+                <h2>Music Ex: Marcel Duchamp</h2>
+                <h3>The Bride Stripped Bare by Her Bachelors Even. Erratum Musical</h3>
+                <ul>
+                    <li class="fragment">Written circa 1912</li>
+                    <li class="fragment">Realization by Petr Kotik for pianola</li>
+                    <li class="fragment">Used same system to construct pitches and rhythms</li>
+                    <li class="fragment">Score is for a mechanical instrument</li>
+                    <li class="fragment">Composed with a contraption that generates "musical periods": a 
+                        set of 85 balls corresponding to musical notes which fall into a funnel and are 
+                        dropped into passing "cars" moving at different speeds.<li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Music Ex: Lejaren Hiller</h2>
+                <h3>Illiac Suite - Movement IV</h3>
+                <ul>
+                    <li class="fragment">Programmed on the ILLIAC I computer at the University of Illinois at Urbana-Champaign from late 1955 to 1957</li>
+                    <li class="fragment">Collaborated on programming with Leonard Isaacson</li>
+                    <li class="fragment">4th movement uses markov chains / probability tables to construct score</li>
+                    <li class="fragment">Score generated by computer for string quartet</li>
+                    <li class="fragment">Encoding of compositional process</li>
+                    <li class="fragment">Information theory</li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>An Aside On Agenda</h1>
+                <ul>
+                    <li class="fragment">Audible process</li>
+                    <li class="fragment">Inaudible process</li>
+                    <li class="fragment">Compositional helper</li>
+                    <li class="fragment">Stylistic synthesis</li>
+                    <li class="fragment">Toward a new aesthetic</li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>No AI, only humans and tools</h1>
+            </section>
+
+            <section>
+                <img src="chris.jpg"/>
+            </section>
+
+            <section>
+                <h1>Thanks!</h1>
+            </section>
+
+            <section>
+                <h1>Demonstration</h1>
+
+                <ul>
+                    <li class="fragment">A random melody</li>
+                    <li class="fragment">Restricted random</li>
+                    <li class="fragment">With harmony</li>
+                    <li class="fragment">Adding the logistic equation</li>
+                    <li class="fragment">Polyphony</li>
+                    <li class="fragment">Drums etc...</li>
+                    <li class="fragment">What else?</li>
+                </ul>
+            </section>
+
+            <section>
+                <h1>Discussion</h1>
+            </section>
+        </div>
+        </div>
+
+
+
+		<script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                controls: false,
+                center: true,
+                progress: true,
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+            });
+        </script>
+    </body>
+</html>
